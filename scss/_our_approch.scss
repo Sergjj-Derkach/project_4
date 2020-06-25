@@ -1,0 +1,170 @@
+.our_approch{
+    background-color: #f3f3f3;
+
+    .container{
+        flex-direction: column;
+
+        .approch{
+            text-align: center;
+            padding: 90px 0 5px;
+
+            h2{
+                font-size: 36px;
+                font-weight: 700;
+                color: #424242;
+                line-height: 26px;
+                
+                span{
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+            }
+
+            .block{
+                display: inline-block;
+                width: 47px;
+                height: 5px;
+                background-color: #424242;
+                margin-top: 14px;
+            }
+        }
+
+        .steps{
+            padding-bottom: 133px;
+
+            >div{
+                margin: 40px 0;
+            }
+            .step_left{
+                display: flex;
+                box-shadow: 0 0 5px #e2e2e2;
+                background-color: #ffffff;
+                border-radius: 5px;
+
+                .step_img_1{
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    width: 352px;
+                    height: 236px;
+                    background: url("../image/our_approch/img_step_1.png") center/cover; 
+                }
+                .step_img_3{
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    width: 352px;
+                    height: 236px;
+                    background: url("../image/our_approch/img_step_3.png") center/cover; 
+                }
+
+                .step_description{
+                    display: flex;
+                    align-items: center;
+                    
+                    .step_img_number_1{
+                        display: block;
+                        width: 101px;
+                        height: 101px;
+                        background: url("../image/our_approch/step_1.png")center/cover;
+                        margin-right: 40px;
+                        margin-left: -50px;
+                    }
+
+                    .step_img_number_3{
+                        display: block;
+                        width: 101px;
+                        height: 101px;
+                        background: url("../image/our_approch/step_3.png")center/cover;
+                        margin-right: 40px;
+                        margin-left: -50px;
+                    }
+
+                    div{
+                        h3{
+                            color: #424242;
+                            font-size: 18px;
+                            line-height: 26px;
+                            font-weight: 700;
+                            margin-bottom: 13px;
+                        }
+    
+                        p{
+                            color: #5c5c5c;
+                            font-size: 14px;
+                            line-height: 22px;
+                            max-width: 520px;
+                        }
+                    }
+                    
+                }
+            }
+
+            .step_right{
+                display: flex;
+                flex-direction: row-reverse;
+                box-shadow: 0 0 5px #e2e2e2;
+                background-color: #ffffff;
+                border-radius: 5px;
+
+                .step_img_2{
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    width: 352px;
+                    height: 236px;
+                    background: url("../image/our_approch/img_step_2.png") center/cover; 
+                }
+                .step_img_4{
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    width: 352px;
+                    height: 236px;
+                    background: url("../image/our_approch/img_step_4.png") center/cover; 
+                }
+
+                .step_description{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    
+                    .step_img_number_2{
+                        display: block;
+                        width: 101px;
+                        height: 101px;
+                        background: url("../image/our_approch/step_2.png")center/cover;
+                        margin-right: -50px;
+                        margin-left: 40px;
+                    }
+
+                    .step_img_number_4{
+                        display: block;
+                        width: 101px;
+                        height: 101px;
+                        background: url("../image/our_approch/step_4.png")center/cover;
+                        margin-right: -50px;
+                        margin-left: 40px; 
+                    }
+
+                    div{
+                        text-align: right;
+                        h3{
+                            color: #424242;
+                            font-size: 18px;
+                            line-height: 26px;
+                            font-weight: 700;
+                            margin-bottom: 13px;
+                        }
+    
+                        p{
+                            color: #5c5c5c;
+                            font-size: 14px;
+                            line-height: 22px;
+                            max-width: 520px;
+                        }
+                    }
+                    
+                }
+            }
+           
+          
+        }
+    }
+}

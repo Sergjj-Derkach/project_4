@@ -1,0 +1,179 @@
+// contactsTop
+
+.contactsTop{
+    background-color: #f0f2f4;
+
+    .container{
+        justify-content: flex-end;
+        padding: 12px 20px;
+
+        .telephone{
+            display: flex;
+            align-items: center;
+
+            .tel_icon{
+                display: block;
+                width: 11px;
+                height: 18px;
+                background: url("../image/header/tel_icon.png") center/cover;
+                margin-right: 11px;
+            }
+
+            .tel_num{
+                color: #424242;
+                font-size: 15px;
+                padding-right: 40px;
+            }
+        }
+
+        .email{
+            display: flex;
+            align-items: center;
+
+            .email_icon{
+                display: block;
+                width: 20px;
+                height: 16px;
+                background: url("../image/header/email_icon.png") center/cover;
+                margin-right: 8px;
+            }
+
+            span:nth-child(2){
+                color: #424242;
+                font-size: 15px;
+            }
+            
+        }
+
+        .facebook{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 26px;
+            height: 26px;
+            background-color: #1287bf;
+            border-radius: 5px;
+            margin-left: 12px;
+
+            span{
+                display: block;
+                width: 8px;
+                height: 16px;
+                background: url("../image/header/facebook_icon.png") center/cover;
+            }
+        }
+    }
+}
+
+// topMenu
+.topMenu{
+    
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        padding: 42px 20px;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            
+            .logo_img{
+                display: block;
+                width: 74px;
+                height: 49px;
+                background: url("../image/header/shapka.png") center/cover;
+                margin-right: 10px;
+            }
+        }
+
+        .logo_heading{
+
+            h3{
+                color: #424242;
+                font-size: 37px;
+                font-weight: 700;
+                margin-bottom: 8px;
+            }
+
+            h4{
+                color: #424242;
+                font-size: 15px;
+            }
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-width: 580px;
+
+            a{
+                font-family: "Helvetica Neue";
+                font-size: 15px;
+                font-weight: 700;
+                color: #424242;
+
+                &:hover{
+                    color: #de2b24;
+                }
+
+                &:last-child{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 171px;
+                    height: 36px;
+                    background-color: #de2b24;
+                    border-radius: 5px;
+                    color: #fff;
+                }
+            }
+
+            .point{
+                display: block;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: #424242;
+            }
+        }
+    }
+}
+
+// heading
+.heading{
+    background: url("../image/header/Layer_32.png")center/cover;
+    
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: calc(100vh - 194px);
+        
+        h1{
+            color: #fff;
+            font-size: 48px;
+            font-weight: 700;
+
+            span{
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 330px;
+            height: 69px;
+            background-color: #f8cd53;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 700;
+            border-radius: 5px;
+            margin-top: 32px;
+        }
+    }
+}

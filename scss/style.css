@@ -1,0 +1,635 @@
+.contactsTop {
+  background-color: #f0f2f4;
+}
+
+.contactsTop .container {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.contactsTop .container .telephone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactsTop .container .telephone .tel_icon {
+  display: block;
+  width: 11px;
+  height: 18px;
+  background: url("../image/header/tel_icon.png") center/cover;
+  margin-right: 11px;
+}
+
+.contactsTop .container .telephone .tel_num {
+  color: #424242;
+  font-size: 15px;
+  padding-right: 40px;
+}
+
+.contactsTop .container .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactsTop .container .email .email_icon {
+  display: block;
+  width: 20px;
+  height: 16px;
+  background: url("../image/header/email_icon.png") center/cover;
+  margin-right: 8px;
+}
+
+.contactsTop .container .email span:nth-child(2) {
+  color: #424242;
+  font-size: 15px;
+}
+
+.contactsTop .container .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 26px;
+  height: 26px;
+  background-color: #1287bf;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.contactsTop .container .facebook span {
+  display: block;
+  width: 8px;
+  height: 16px;
+  background: url("../image/header/facebook_icon.png") center/cover;
+}
+
+.topMenu .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 42px 20px;
+}
+
+.topMenu .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topMenu .container .logo .logo_img {
+  display: block;
+  width: 74px;
+  height: 49px;
+  background: url("../image/header/shapka.png") center/cover;
+  margin-right: 10px;
+}
+
+.topMenu .container .logo_heading h3 {
+  color: #424242;
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.topMenu .container .logo_heading h4 {
+  color: #424242;
+  font-size: 15px;
+}
+
+.topMenu .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 580px;
+}
+
+.topMenu .container nav a {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: 700;
+  color: #424242;
+}
+
+.topMenu .container nav a:hover {
+  color: #de2b24;
+}
+
+.topMenu .container nav a:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 171px;
+  height: 36px;
+  background-color: #de2b24;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.topMenu .container nav .point {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #424242;
+}
+
+.heading {
+  background: url("../image/header/Layer_32.png") center/cover;
+}
+
+.heading .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: calc(100vh - 194px);
+}
+
+.heading .container h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.heading .container h1 span {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.heading .container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 330px;
+  height: 69px;
+  background-color: #f8cd53;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+
+.aboutUs .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUs .container .aboutHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 46px;
+}
+
+.aboutUs .container .aboutHeading h2 {
+  color: #424242;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.aboutUs .container .aboutHeading h2 span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.aboutUs .container .aboutHeading .block {
+  display: block;
+  width: 47px;
+  height: 5px;
+  background-color: #424242;
+  margin-top: 14px;
+}
+
+.aboutUs .container .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 119px;
+}
+
+.aboutUs .container .services > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUs .container .services > div span {
+  display: block;
+  margin-bottom: 28px;
+}
+
+.aboutUs .container .services > div h4 {
+  color: #424242;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.aboutUs .container .services > div p {
+  text-align: center;
+  max-width: 238px;
+  max-height: 60px;
+  overflow: hidden;
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.aboutUs .container .services .marketing span {
+  width: 83px;
+  height: 79px;
+  background: url("../image/aboutUs/Layer_33.png") center/cover;
+}
+
+.aboutUs .container .services .creation span {
+  width: 66px;
+  height: 79px;
+  background: url("../image/aboutUs/Layer_36.png") center/cover;
+}
+
+.aboutUs .container .services .management span {
+  width: 84px;
+  height: 81px;
+  background: url("../image/aboutUs/Layer_37.png") center/cover;
+}
+
+.our_approch {
+  background-color: #f3f3f3;
+}
+
+.our_approch .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our_approch .container .approch {
+  text-align: center;
+  padding: 90px 0 5px;
+}
+
+.our_approch .container .approch h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #424242;
+  line-height: 26px;
+}
+
+.our_approch .container .approch h2 span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.our_approch .container .approch .block {
+  display: inline-block;
+  width: 47px;
+  height: 5px;
+  background-color: #424242;
+  margin-top: 14px;
+}
+
+.our_approch .container .steps {
+  padding-bottom: 133px;
+}
+
+.our_approch .container .steps > div {
+  margin: 40px 0;
+}
+
+.our_approch .container .steps .step_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 5px #e2e2e2;
+          box-shadow: 0 0 5px #e2e2e2;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.our_approch .container .steps .step_left .step_img_1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 352px;
+  height: 236px;
+  background: url("../image/our_approch/img_step_1.png") center/cover;
+}
+
+.our_approch .container .steps .step_left .step_img_3 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 352px;
+  height: 236px;
+  background: url("../image/our_approch/img_step_3.png") center/cover;
+}
+
+.our_approch .container .steps .step_left .step_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our_approch .container .steps .step_left .step_description .step_img_number_1 {
+  display: block;
+  width: 101px;
+  height: 101px;
+  background: url("../image/our_approch/step_1.png") center/cover;
+  margin-right: 40px;
+  margin-left: -50px;
+}
+
+.our_approch .container .steps .step_left .step_description .step_img_number_3 {
+  display: block;
+  width: 101px;
+  height: 101px;
+  background: url("../image/our_approch/step_3.png") center/cover;
+  margin-right: 40px;
+  margin-left: -50px;
+}
+
+.our_approch .container .steps .step_left .step_description div h3 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.our_approch .container .steps .step_left .step_description div p {
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 520px;
+}
+
+.our_approch .container .steps .step_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-shadow: 0 0 5px #e2e2e2;
+          box-shadow: 0 0 5px #e2e2e2;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.our_approch .container .steps .step_right .step_img_2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 352px;
+  height: 236px;
+  background: url("../image/our_approch/img_step_2.png") center/cover;
+}
+
+.our_approch .container .steps .step_right .step_img_4 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 352px;
+  height: 236px;
+  background: url("../image/our_approch/img_step_4.png") center/cover;
+}
+
+.our_approch .container .steps .step_right .step_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our_approch .container .steps .step_right .step_description .step_img_number_2 {
+  display: block;
+  width: 101px;
+  height: 101px;
+  background: url("../image/our_approch/step_2.png") center/cover;
+  margin-right: -50px;
+  margin-left: 40px;
+}
+
+.our_approch .container .steps .step_right .step_description .step_img_number_4 {
+  display: block;
+  width: 101px;
+  height: 101px;
+  background: url("../image/our_approch/step_4.png") center/cover;
+  margin-right: -50px;
+  margin-left: 40px;
+}
+
+.our_approch .container .steps .step_right .step_description div {
+  text-align: right;
+}
+
+.our_approch .container .steps .step_right .step_description div h3 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.our_approch .container .steps .step_right .step_description div p {
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 520px;
+}
+
+.our_work {
+  background-color: #de2b24;
+}
+
+.our_work .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 110px;
+  padding-bottom: 131px;
+}
+
+.our_work .container .work {
+  text-align: center;
+}
+
+.our_work .container .work h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 17px;
+}
+
+.our_work .container .work h2 span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.our_work .container .work .white_block {
+  display: inline-block;
+  width: 47px;
+  height: 5px;
+  background-color: #f3f3f3;
+}
+
+.our_work .container .eight {
+  margin-top: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our_work .container .eight > div {
+  width: 255px;
+  height: 255px;
+}
+
+.our_work .container .eight .top_odd, .our_work .container .eight .bottom_even {
+  background-color: #f35e59;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.our_work .container .eight .top_odd .telegram, .our_work .container .eight .bottom_even .telegram {
+  display: block;
+  width: 36px;
+  height: 37px;
+  background: url("../image/our_work/telegram_img.png") center/cover;
+  margin-bottom: 25px;
+}
+
+.our_work .container .eight .top_odd h3, .our_work .container .eight .bottom_even h3 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.our_work .container .eight .top_odd h3 span, .our_work .container .eight .bottom_even h3 span {
+  font-size: 16px;
+}
+
+.our_work .container .eight .img_2 {
+  background: url("../image/our_work/img_2.png") center/cover;
+}
+
+.our_work .container .eight .img_4 {
+  background: url("../image/our_work/img_4.png") center/cover;
+}
+
+.our_work .container .eight .img_5 {
+  background: url("../image/our_work/img_5.png") center/cover;
+}
+
+.our_work .container .eight .img_7 {
+  background: url("../image/our_work/img_7.png") center/cover;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body .container {
+  max-width: 1064px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+}
+/*# sourceMappingURL=style.css.map */
